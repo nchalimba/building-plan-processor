@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+numpy = "*"
+flask-bcrypt = "*"
+flask-restplus = "*"
+pyjwt = "*"
+flask-script = "*"
+flask-testing = "*"
+jupyter = "*"
+ezdxf = "*"
+shapely = "*"
+area = "*"
+uuid = "*"
+python-dotenv = "*"
+flask-redis = "*"
+flask = "~=1.1"
+pypdf2 = "*"
+reportlab = "*"
+wheel = "*"
+rq = "*"
+redis = "*"
+task = "*"
+requests = "*"
+loguru = "*"
+tqdm = "*"
+win32-setctime = "*"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.9"
